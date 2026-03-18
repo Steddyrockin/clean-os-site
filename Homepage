@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean OS — A Systems Philosophy for Continuous Motion</title>
+    <meta name="description" content="Clean OS is a systems philosophy and operating framework enabling autonomous, continuous motion across interconnected platforms.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Clean OS</a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="clean-os.html">Clean OS</a></li>
+                <li><a href="philosophy.html">Philosophy</a></li>
+                <li><a href="ventures.html">Ventures</a></li>
+                <li><a href="currency-exchange.html">Currency Exchange</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Clean OS — A Systems Philosophy for Continuous Motion</h1>
+            <p>Clean is a technology company building Clean OS, a systems philosophy and operating framework designed to enable autonomous, continuous motion across interconnected platforms. Unlike static frameworks, Clean focuses on dynamic systems where technology, people, and processes interact fluidly.</p>
+        </section>
+
+        <section class="features">
+            <h2>What Clean Enables</h2>
+            <ul>
+                <li>Autonomous system design</li>
+                <li>Interconnected platform architecture</li>
+                <li>Continuous operational alignment</li>
+                <li>Scalable digital infrastructure</li>
+                <li>Cross-border system fluidity</li>
+            </ul>
+        </section>
+
+        <section class="cta">
+            <p>Clean OS is built for founders, builders, and organizations designing the next generation of adaptive technology.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Clean OS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
