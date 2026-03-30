@@ -1,18 +1,121 @@
-<section class="currency-exchange">
-    <h1>Clean Currency Exchange System</h1>
-    <p>Real-time currency conversion and cross-border financial alignment.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clean, Inc.</title>
 
-    <label for="from-currency">From:</label>
-    <select id="from-currency"></select>
+  <!-- Typewriter-style font -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 
-    <label for="to-currency">To:</label>
-    <select id="to-currency"></select>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #000000;
+    }
 
-    <input type="number" id="amount" placeholder="Amount" />
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-    <button id="convert-btn">Convert</button>
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
 
-    <p id="result"></p>
-</section>
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 1px solid #000;
+    }
 
-<script src="js/currency.js"></script>
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 40px 20px;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    main p {
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    a.cta {
+      margin-top: 30px;
+      text-decoration: none;
+      color: #000;
+      border: 1px solid #000;
+      padding: 12px 24px;
+      transition: all 0.2s ease;
+    }
+
+    a.cta:hover {
+      background: #000;
+      color: #fff;
+    }
+
+    footer {
+      border-top: 1px solid #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Clean, Inc.</h1>
+  </header>
+
+  <main>
+    <p>
+      The Clean Philosophy is a system designed to enable autonomous and continuous motion. 
+      Each component interacts with the others and with the system as a whole, moving toward 
+      a point of singularity where alignment, efficiency, and purpose converge.
+    </p>
+
+    <a class="cta" href="https://steddyrockin.github.io/Currency-exchange/" target="_blank">
+      Currency Exchange
+    </a>
+  </main>
+
+  <footer>
+    <div>
+      Clean, Inc. |
+      <a href="#">Legalize</a> |
+      <a href="mailto:Steddyrockin@gmail.com">Contact</a>
+    </div>
+  </footer>
+
+</body>
+</html>
